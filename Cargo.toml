@@ -2,22 +2,16 @@
 members = ["openapi"]
 
 [package]
-name = "stripe-rust" # b.c. stripe and stripe-rs were already taken
-version = "0.10.5"
+name = "F80A18"
+version = "0.0.0"
 description = "API bindings for the Stripe v1 HTTP API"
-authors = [
-  "Anna Baldwin <abaldwin@developers.wyyerd.com>",
-  "Kevin Stenerson <kstenerson@developers.wyyerd.com>"
-]
+authors = []
 license = "MIT/Apache-2.0"
 repository = "https://github.com/wyyerd/stripe-rs"
 documentation = "https://docs.rs/stripe-rust"
 keywords = ["stripe", "v1", "api"]
 categories = ["api-bindings"]
 edition = "2018"
-
-[badges]
-travis-ci = {repository = "wyyerd/stripe-rs"}
 
 [lib]
 name = "stripe"
